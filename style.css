@@ -1,0 +1,60 @@
+html, body { 
+    height: 100%; 
+    width: 100%; 
+    background-image: url('images/8.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+div { 
+    height: 100%; 
+    width: 100%; 
+}
+
+/* REMOVE BOOTSTRAP PADDING */
+.row{
+    margin-right: 0px;
+}
+
+.container{
+    padding: 0px;
+}
+
+/* Set Background For Parallax */
+.home_parallax, .genre_1, .genre_2, .genre_3{
+    height: 100%;
+    width: 100%;
+    position: relative;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* Set For Each Parallax Pages */
+.home_parallax{
+    background-image: url('images/5.jpg');
+
+}
+
+.genre_1{
+    background-image: url('images/6.jpg');
+}
+
+.genre_2{
+    background-image: url('images/12.jpg')
+}
+
+.caption {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    color: #000;
+  }
+  
